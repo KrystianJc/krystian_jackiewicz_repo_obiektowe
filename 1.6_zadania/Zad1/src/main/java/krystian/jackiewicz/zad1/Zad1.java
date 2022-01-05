@@ -4,6 +4,8 @@
  */
 package krystian.jackiewicz.zad1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author jacki
@@ -11,6 +13,22 @@ package krystian.jackiewicz.zad1;
 public class Zad1 {
     public static void main(String args[])
     {
+        String haslo = "Kowalski123";
+        
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Podaj haslo: ");
+        
+        String podaneHaslo = sc.nextLine();
+        
+        if(haslo.equals(podaneHaslo))
+        {
+            System.out.println("Poprawne haslo!!!");
+        }
+        else
+        {
+            System.out.println("Nie poprawne haslo!!!");
+        }
         
     }
 }

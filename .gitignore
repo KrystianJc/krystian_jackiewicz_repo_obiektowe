@@ -30,3 +30,6 @@ nbdist/
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/1.6_zadania/Zad1/target/
+/1.6_zadania/Zad2/target/
+/1.6_zadania/Zad3/target/
